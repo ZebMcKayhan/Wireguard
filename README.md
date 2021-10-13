@@ -29,9 +29,11 @@ Download and install "ubuntu 20.04 LTS" from windows store
 Setup the program according to "Firmware compilation WSL2 setup"
 
 Compile your firmware according to "Firmware compilation Ubuntu"
+
 optionally install and use "amcfwm - AsusWRT-Merlin Custom Firmware Manager" whichever works best.
 
 Setup Entware buildroot according to "Wireguard/Tools makefiles and Entware compilation"
+
 If/when any compilation fails, use "make J 1 V=s ..." to find out what is going wrong. usually web pages returning 404 so just try again.
 
 place the makefiles in its directories here:
@@ -52,7 +54,8 @@ PKG_RELEASE:=ac
 PKG_HASH:=7c0e576459c6337bcdea692bdbec561719a15da207dc739e0e3e60ff821a5491
 ```
 if you cant get the hash, leave the old hash and the compiler will later complain about it, and gives you the proper hash to fill in.
-the PKG_RELEASE is only used as a suffix name on the output file, so change according to your build/needs.
+
+The PKG_RELEASE is only used as a suffix name on the output file, so change according to your build/needs.
 
 Create the symlink by executing:
 ```sh
