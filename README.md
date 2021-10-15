@@ -9,14 +9,14 @@ Only RT-AC86U / GT-AC2900 is available at this time.
 # Userspace-tools
 This is Firmware independent.
 ```sh
-curl -LJO https://github.com/ZebMcKayhan/Wireguard/blob/main/wireguard-tools_1.0.20210914-1_aarch64-3.10.ipk
+curl -LJO https://raw.githubusercontent.com/ZebMcKayhan/Wireguard/main/wireguard-tools_1.0.20210914-1_aarch64-3.10.ipk
 ```
 Follow [these](http://www.snbforums.com/threads/session-manager-discussion-2nd-thread.75129/post-718252) steps to get these installed in Wireguard Session Manager.
 # RT-AC86U / GT-AC2900
 kernel 4.1.27
 wireguard-kernel_1.0.20210606-k27_1_aarch64-3.10.ipk
 ```sh
-curl -LJO https://github.com/ZebMcKayhan/Wireguard/blob/main/wireguard-kernel_1.0.20210606-k27_1_aarch64-3.10.ipk
+curl -LJO https://raw.githubusercontent.com/ZebMcKayhan/Wireguard/main/wireguard-kernel_1.0.20210606-k27_1_aarch64-3.10.ipk
 ```
 Follow [these](http://www.snbforums.com/threads/session-manager-discussion-2nd-thread.75129/post-718192) steps to get these installed in Wireguard Session Manager.
 # Informational sources
