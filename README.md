@@ -1,6 +1,14 @@
 # Wireguard
 Wireguard kernel module and userspace-tools for asus routers running Entware 3.10
 
+# Important notice
+For the kernel modules to work properly you need to load one that is matching your kernel.
+I have choose to keep @odkrys notation and use kernel sub-version as a suffix.
+
+# RT-AC86U
+kernel 4.1.27
+
+
 # Informational sources
 [Ubuntu 20.04 LTS - Windows store](https://www.microsoft.com/en-us/p/ubuntu-2004-lts/9n6svws3rx71?activetab=pivot:overviewtab)
 
