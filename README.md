@@ -24,6 +24,7 @@ If you for some reason want to install this yourself, use this to download to yo
 curl -LJO https://raw.githubusercontent.com/ZebMcKayhan/Wireguard/main/wireguard-kernel_1.0.20210606-k27_1_aarch64-3.10.ipk
 ```
 
+If you don't know how to install this you probably shouldn't try. Instead follow the link below to install Wireguard Session Manager and it will install it and setup your system properly.
 # Informational sources
 [Ubuntu 20.04 LTS - Windows store](https://www.microsoft.com/en-us/p/ubuntu-2004-lts/9n6svws3rx71?activetab=pivot:overviewtab)
 
