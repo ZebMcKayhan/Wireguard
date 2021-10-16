@@ -8,18 +8,22 @@ I have choose to keep @odkrys notation and use kernel sub-version as a suffix.
 Only RT-AC86U / GT-AC2900 is available at this time.
 
 # Userspace-tools
-This is Firmware independent.
+This is Firmware independent and will be installed automatically by Wireguard Session Manager.
+If you for some reason want to install this yourself, use this to download to your router:
 ```sh
 curl -LJO https://raw.githubusercontent.com/ZebMcKayhan/Wireguard/main/wireguard-tools_1.0.20210914-1_aarch64-3.10.ipk
 ```
-Follow [these](http://www.snbforums.com/threads/session-manager-discussion-2nd-thread.75129/post-718252) steps to get these installed in Wireguard Session Manager.
+
 # RT-AC86U / GT-AC2900
 kernel 4.1.27
 wireguard-kernel_1.0.20210606-k27_1_aarch64-3.10.ipk
+
+If your system matches the kernel then this will be installed automatically by Wireguard Session Manager.
+If you for some reason want to install this yourself, use this to download to your router:
 ```sh
 curl -LJO https://raw.githubusercontent.com/ZebMcKayhan/Wireguard/main/wireguard-kernel_1.0.20210606-k27_1_aarch64-3.10.ipk
 ```
-Follow [these](http://www.snbforums.com/threads/session-manager-discussion-2nd-thread.75129/post-718192) steps to get these installed in Wireguard Session Manager.
+
 # Informational sources
 [Ubuntu 20.04 LTS - Windows store](https://www.microsoft.com/en-us/p/ubuntu-2004-lts/9n6svws3rx71?activetab=pivot:overviewtab)
 
