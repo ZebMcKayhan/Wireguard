@@ -15,12 +15,12 @@ curl -LJO https://raw.githubusercontent.com/ZebMcKayhan/Wireguard/main/wireguard
 ```
 
 # RT-AC86U / GT-AC2900
-kernel 4.1.27
-wireguard-kernel_1.0.20210606-k27_1_aarch64-3.10.ipk
+kernel 4.1.27  
+wireguard-kernel_1.0.20210606-k27_1_aarch64-3.10.ipk  
 
 # RT-AX88U / GT-AX11000
-kernel 4.1.51
-wireguard-kernel_1.0.20210606-k51_1_aarch64-3.10.ipk
+kernel 4.1.51  
+wireguard-kernel_1.0.20210606-k51_1_aarch64-3.10.ipk  
 
 # Installation
 If your system matches the kernel then this will be installed automatically by Wireguard Session Manager.
