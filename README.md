@@ -5,7 +5,7 @@ Wireguard kernel module and userspace-tools for asus routers running Entware 3.1
 For the kernel modules to work properly you need to load one that is matching your kernel.
 I have choose to keep @odkrys notation and use kernel sub-version as a suffix.
 
-Only RT-AC86U / GT-AC2900 is available at this time.
+Only RT-AC86U / GT-AC2900 (4.1.27) and RT-AX88U / GT-AX11000 (4.1.51) is available at this time.
 
 # Userspace-tools
 This is Firmware independent and will be installed automatically by Wireguard Session Manager.
@@ -18,6 +18,11 @@ curl -LJO https://raw.githubusercontent.com/ZebMcKayhan/Wireguard/main/wireguard
 kernel 4.1.27
 wireguard-kernel_1.0.20210606-k27_1_aarch64-3.10.ipk
 
+# RT-AX88U / GT-AX11000
+kernel 4.1.51
+wireguard-kernel_1.0.20210606-k51_1_aarch64-3.10.ipk
+
+# Installation
 If your system matches the kernel then this will be installed automatically by Wireguard Session Manager.
 If you for some reason want to install this yourself, use this to download to your router:
 ```sh
