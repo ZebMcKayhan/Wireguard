@@ -16,11 +16,13 @@ curl -LJO https://raw.githubusercontent.com/ZebMcKayhan/Wireguard/main/wireguard
 
 # RT-AC86U / GT-AC2900
 kernel 4.1.27  
-wireguard-kernel_1.0.20211208-k27_1_aarch64-3.10.ipk  
+wireguard-kernel_1.0.20211208-RT-AC86U_2_aarch64-3.10.ipk  
+wireguard-kernel_1.0.20211208-k27_2_aarch64-3.10.ipk  
 
 # RT-AX88U / GT-AX11000
 kernel 4.1.51  
-wireguard-kernel_1.0.20210606-k51_1_aarch64-3.10.ipk  
+wireguard-kernel_1.0.20211208-RT-AX88U_2_aarch64-3.10.ipk  
+wireguard-kernel_1.0.20211208-k51_2_aarch64-3.10.ipk  
 
 # Installation
 If your system matches the kernel then this will be installed automatically by Wireguard Session Manager.
@@ -35,7 +37,7 @@ If you don't know how to install this you probably shouldn't try. Instead follow
 
 [Firmware compilation WSL2 setup](https://github.com/RMerl/asuswrt-merlin.ng/wiki/Compiling-under-WSL2)
 
-[Firmware compilation Ubuntu](https://github.com/RMerl/asuswrt-merlin.ng/wiki/Compile-Firmware-from-source-using-Ubuntu)
+[Firmware compilation rt-merlin.ng/wiki/Compile-Firmware-from-source-using-Ubuntu)
 
 [SNB Forum - amcfwm - AsusWRT-Merlin Custom Firmware Manager](https://www.snbforums.com/threads/amcfwm-asuswrt-merlin-custom-firmware-manager.63227/)
 
