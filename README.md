@@ -16,12 +16,14 @@ curl -LJO https://raw.githubusercontent.com/ZebMcKayhan/Wireguard/main/wireguard
 
 # RT-AC86U / GT-AC2900
 kernel 4.1.27  
-wireguard-kernel_1.0.20211208-RT-AC86U_2_aarch64-3.10.ipk  
+wireguard-kernel_1.0.20211208-RT-AC86U_2_aarch64-3.10.ipk    
+wireguard-kernel_1.0.20211208-GT-AC2900_2_aarch64-3.10.ipk  
 wireguard-kernel_1.0.20211208-k27_2_aarch64-3.10.ipk  
 
 # RT-AX88U / GT-AX11000
 kernel 4.1.51  
-wireguard-kernel_1.0.20211208-RT-AX88U_2_aarch64-3.10.ipk  
+wireguard-kernel_1.0.20211208-RT-AX88U_2_aarch64-3.10.ipk
+wireguard-kernel_1.0.20211208-GT-AX11000_2_aarch64-3.10.ipk  
 wireguard-kernel_1.0.20211208-k51_2_aarch64-3.10.ipk  
 
 # Installation
