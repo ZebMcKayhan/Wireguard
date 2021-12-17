@@ -22,7 +22,7 @@ wireguard-kernel_1.0.20211208-k27_2_aarch64-3.10.ipk
 
 # RT-AX88U / GT-AX11000
 kernel 4.1.51  
-wireguard-kernel_1.0.20211208-RT-AX88U_2_aarch64-3.10.ipk
+wireguard-kernel_1.0.20211208-RT-AX88U_2_aarch64-3.10.ipk  
 wireguard-kernel_1.0.20211208-GT-AX11000_2_aarch64-3.10.ipk  
 wireguard-kernel_1.0.20211208-k51_2_aarch64-3.10.ipk  
 
