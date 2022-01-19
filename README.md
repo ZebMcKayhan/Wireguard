@@ -39,7 +39,7 @@ If you don't know how to install this you probably shouldn't try. Instead follow
 
 [Firmware compilation WSL2 setup](https://github.com/RMerl/asuswrt-merlin.ng/wiki/Compiling-under-WSL2)
 
-[Firmware compilation rt-merlin.ng/wiki/Compile-Firmware-from-source-using-Ubuntu)
+[Firmware compilation](https://github.com/RMerl/asuswrt-merlin.ng/wiki/Compile-Firmware-from-source-using-Ubuntu)
 
 [SNB Forum - amcfwm - AsusWRT-Merlin Custom Firmware Manager](https://www.snbforums.com/threads/amcfwm-asuswrt-merlin-custom-firmware-manager.63227/)
 
